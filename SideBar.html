@@ -1,0 +1,27 @@
+<html>
+
+<head>
+    <title>TV Display SideBar </title>
+    <link rel="stylesheet" type="text/css" href="SideBar.css">
+</head>
+
+<body onload="loadFunctions()">
+    <div class="ModuleHolder" id=complete>
+        <div class="Module" id="CurrentModule">
+            <div class="ModuleHeader" id="CurrentHeader">Current conditions</div>
+            <div class="ModuleContent" id="CurrentContent">
+                <div id="CurrentTemp"></div>
+                <div id="CurrentWind"></div>
+            </div>
+        </div>
+        <div class="Module" id="ForecastHourly"></div>
+        <div class="Module" id="ForecastDaily"></div>
+        <div class="Module" id="MusicalModule"></div>
+        <!-- <div class="Logo" id="MusicalLogo"></div> -->
+        <div class="Module" id="TodaysShows"></div>
+    </div>
+    <script src="Ajax.js"></script>
+    <script src="SideBar.js"></script>
+    <script src="moment.js"></script>
+
+</html>

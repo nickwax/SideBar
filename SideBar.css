@@ -1,0 +1,115 @@
+@font-face {
+    font-family: ChaparralPro;
+    src: url(ChaparralPro-Bold.ttf);
+}
+
+* {
+    font-family: ChaparralPro;
+}
+
+html, body, {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-image: url("Leather_orange.jpg");
+    background-size: 1920px 1080px;
+    background-repeat: no-repeat;
+}
+
+.Module {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 4.5px 5px 5px 5px;
+    background-color: rgba(255, 255, 255, 0.3);
+    display: flex;
+    flex-direction: column;
+}
+
+.ModuleHolder{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ModuleHeader {
+    font-size: 35px
+}
+
+.ForecastTempHeader {
+    text-align: center;
+}
+
+.ForecastPeriodData {
+    text-align: left;
+}
+
+.ForecastTempData {
+    padding-left: 40px;
+    padding-right: 15px;
+    text-align: right;
+}
+
+#CurrentContent {
+    display: flex;
+    flex-direction: row;
+}
+
+#CurrentTemp {
+    font-size: 35px;
+}
+
+#CurrentWind {
+    font-size: 35px;
+    margin-left: 30px;
+}
+
+#MusicalModule {
+    font-size: 27px;
+}
+
+#TodaysShows {
+    font-size: 27px;
+}
+
+.Temperature {
+    text-align: center;
+}
+
+.Windspeed {
+    text-align: center;
+}
+
+th {
+    font-size: 25px;
+    text-align: left;
+    text-decoration: underline;
+}
+
+td {
+    font-size: 25px;
+    text-align: center;
+}
+
+.HourlyHeader {
+    padding-right: 5px;
+}
+
+.HourlyHeaderWind {
+    padding-left: 5px;
+}
+
+p {
+    font-size: 25px;
+}
+
+.elementcontainer td {
+    font-size: 25px;
+}
+/* .ForecastPicture img {display: block;} */
